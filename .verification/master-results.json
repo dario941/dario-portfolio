@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Seven-greeting introduction",
+    "detail": {
+      "words": [
+        "Hello",
+        "Hola",
+        "Bonjour",
+        "Ciao",
+        "مرحبا",
+        "Namaste",
+        "നമസ്കാരം"
+      ],
+      "duration": 3549.800000011921,
+      "locked": false,
+      "inert": false,
+      "failed": false,
+      "progress": "100"
+    }
+  },
+  {
+    "name": "Local typography",
+    "detail": [
+      {
+        "family": "DM Sans",
+        "status": "loaded"
+      },
+      {
+        "family": "Manrope",
+        "status": "loaded"
+      },
+      {
+        "family": "Instrument Serif",
+        "status": "loaded"
+      },
+      {
+        "family": "Noto Sans Arabic",
+        "status": "loaded"
+      },
+      {
+        "family": "Noto Sans Malayalam",
+        "status": "loaded"
+      }
+    ]
+  },
+  {
+    "name": "Content preserved",
+    "detail": "All 21 original skill labels, experience/services/contact copy, and navigation/project links unchanged."
+  },
+  {
+    "name": "Session persistence",
+    "detail": "Refresh does not replay the introduction."
+  },
+  {
+    "name": "320px preloader",
+    "detail": "Complete Malayalam text fits; touch keeps native scrolling."
+  },
+  {
+    "name": "Stalled import",
+    "detail": "Independent 2.5s deadline releases overlay, scroll lock and content."
+  },
+  {
+    "name": "Skip",
+    "detail": "Immediate dismissal and session persistence."
+  },
+  {
+    "name": "Reduced motion",
+    "detail": "No intro, no inert content, instant functional filtering."
+  }
+]

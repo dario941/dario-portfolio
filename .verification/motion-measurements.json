@@ -1,0 +1,32 @@
+{
+  "wheelPositions": [
+    264,
+    381,
+    440,
+    467,
+    482,
+    491,
+    495,
+    497,
+    499,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500,
+    500
+  ],
+  "localChromiumLayoutShiftSum": 0.02060266551395141,
+  "tests": [
+    "wheel convergence",
+    "scrubbed hero transform",
+    "desktop card tilt",
+    "dialog scroll lock",
+    "cursor coordinates"
+  ]
+}

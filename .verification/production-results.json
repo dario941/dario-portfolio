@@ -1,0 +1,22 @@
+[
+  {
+    "name": "production full scroll",
+    "detail": "all sections visible, timeline progress, motion toggle, live preference changes, hash/back history"
+  },
+  {
+    "name": "production future projects",
+    "detail": "dynamic insertion, clipped image reveal, text, desktop preview, removal"
+  },
+  {
+    "name": "production reduced initial state",
+    "detail": "static content and immediate navigation"
+  },
+  {
+    "name": "production failed module",
+    "detail": "preloader fails open, HTML readable, navigation still works"
+  },
+  {
+    "name": "production no JavaScript",
+    "detail": "content and anchor navigation available"
+  }
+]

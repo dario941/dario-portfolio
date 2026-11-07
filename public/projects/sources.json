@@ -1,0 +1,94 @@
+{
+  "captured": "2026-11-07",
+  "images": [
+    {
+      "file": "crizpo-desktop.webp",
+      "source": "https://www.crizpoksa.com/",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 117674
+    },
+    {
+      "file": "crizpo-detail.webp",
+      "source": "https://www.crizpoksa.com/#broast",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 101754
+    },
+    {
+      "file": "crizpo-mobile.webp",
+      "source": "https://www.crizpoksa.com/",
+      "width": 430,
+      "height": 932,
+      "bytes": 46960
+    },
+    {
+      "file": "ar-engineerings-desktop.webp",
+      "source": "https://www.ar-eng.net/",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 91876
+    },
+    {
+      "file": "ar-engineerings-detail.webp",
+      "source": "https://www.ar-eng.net/#services",
+      "width": 1440,
+      "height": 1000,
+      "bytes": 83598
+    },
+    {
+      "file": "ar-engineerings-mobile.webp",
+      "source": "https://www.ar-eng.net/",
+      "width": 430,
+      "height": 932,
+      "bytes": 39596
+    }
+  ],
+  "evidence": {
+    "crizpo": {
+      "title": "Crizpo Taif · Broast, Burgers & More",
+      "react": true,
+      "scripts": [
+        "https://www.crizpoksa.com/assets/index-B-a6uhIS.js"
+      ],
+      "languageControls": [
+        {
+          "tag": "BUTTON",
+          "text": "العربية↗",
+          "label": "Switch to Arabic"
+        }
+      ],
+      "whatsapp": [
+        "https://wa.me/966501807054?text=Hello%20Crizpo%2C%20I%20would%20like%20to%20place%20an%20order%20%2F%20enquire%20about%20the%20menu."
+      ],
+      "metadata": true,
+      "structuredData": true,
+      "status": 403,
+      "server": "hcdn"
+    },
+    "ar-engineerings": {
+      "title": "AR Engineering | Industrial & Construction Services Saudi Arabia",
+      "react": true,
+      "scripts": [
+        "https://www.ar-eng.net/assets/index-C_nEdIH-.js",
+        "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092"
+      ],
+      "languageControls": [
+        {
+          "tag": "BUTTON",
+          "text": "عربي",
+          "label": null
+        }
+      ],
+      "whatsapp": [
+        "https://wa.me/966566029475",
+        "https://wa.me/966566029475",
+        "https://wa.me/966566029475?text=Hello%20AR%20Engineerings%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
+      ],
+      "metadata": true,
+      "structuredData": true,
+      "status": 200,
+      "server": "cloudflare"
+    }
+  }
+}

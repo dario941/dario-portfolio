@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "base": "http://127.0.0.1:4173/",
+  "labels": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React",
+    "Responsive design",
+    "3D web animation",
+    "Scroll-driven effects",
+    "Git",
+    "Postman",
+    "AI-assisted development",
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "MySQL",
+    "MongoDB",
+    "Manual software testing",
+    "Mendix",
+    "Python",
+    "Java",
+    "C++",
+    "Company email configuration"
+  ],
+  "errors": []
+}

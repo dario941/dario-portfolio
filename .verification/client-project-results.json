@@ -1,0 +1,48 @@
+{
+  "base": "http://127.0.0.1:4173/",
+  "records": [
+    {
+      "width": 320,
+      "touch": true,
+      "cards": 2,
+      "detailPages": 2,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "touch": true,
+      "cards": 2,
+      "detailPages": 2,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "touch": true,
+      "cards": 2,
+      "detailPages": 2,
+      "overflow": false
+    },
+    {
+      "width": 1024,
+      "touch": false,
+      "cards": 2,
+      "detailPages": 2,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "touch": false,
+      "cards": 2,
+      "detailPages": 2,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "touch": false,
+      "cards": 2,
+      "detailPages": 2,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,79 @@
+/* Technology identity: original editorial composition, locally served SVGs. */
+#skills { padding-top: 20px; scroll-margin-top: 20px; }
+#skills .skills-header { grid-template-columns: 1.25fr .75fr; gap: 48px; align-items: end; padding-top: 48px; }
+#skills .skills-title { font-size: clamp(64px, 8.3vw, 132px); font-weight: 650; line-height: .98; letter-spacing: -.07em; margin-top: 32px; }
+#skills .skills-title .tech-title-line { display: block; }
+#skills .skills-title em { display: inline-block; margin-left: .76em; font-family: var(--serif, Georgia, serif); font-weight: 400; font-size: 1.24em; line-height: 1.05; letter-spacing: -.055em; }
+#skills .skills-intro { max-width: 32ch; margin: 0 0 12px auto; font-size: clamp(16px, 1.4vw, 20px); }
+#skills .skill-filters { gap: 8px; margin-block: 48px 16px; }
+#skills .skill-filters button { position: relative; border-radius: 30px; padding: 12px 18px; min-height: 46px; background: transparent; }
+#skills .skill-filters button[aria-pressed="true"] { background: var(--forest); color: var(--paper); }
+#skills .skill-filters button:focus-visible { outline-offset: 3px; }
+#skills .skill-groups { margin-top: 32px; position: relative; }
+#skills .skill-row { grid-template-columns: minmax(0, .9fr) minmax(0, 1.8fr); gap: clamp(28px, 4vw, 64px); padding-block: 40px; align-items: start; }
+#skills .skill-category { display: flex; flex-direction: column; align-items: start; gap: 18px; }
+#skills .skill-category h3 { font: 600 clamp(25px, 2.7vw, 44px)/1.08 var(--display); letter-spacing: -.055em; text-transform: uppercase; max-width: 12ch; text-wrap: balance; }
+#skills .skill-category-meta { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 10px; letter-spacing: .12em; text-transform: uppercase; }
+#skills .skill-category-count { color: var(--ink); font-size: 12px; font-variant-numeric: tabular-nums; }
+#skills .skill-category-meta::before { content: ''; width: 18px; height: 1px; background: var(--muted); }
+#skills .skill-list { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; min-width: 0; }
+#skills .skill-list .tech-card { display: block; min-width: 0; min-height: 94px; padding: 0; background: transparent; border: 0; border-radius: 0; color: var(--ink); }
+#skills .tech-card-surface { position: relative; height: 100%; display: flex; align-items: center; gap: 14px; padding: 20px 16px; border: 1px solid #d5dacf; border-radius: 5px; background: #e9ebe2; isolation: isolate; transition: border-color .3s, background-color .3s, box-shadow .3s; }
+#skills .tech-card-surface::before { content: ''; position: absolute; inset: 0; border-radius: inherit; background: radial-gradient(180px circle at var(--pointer-x, 50%) var(--pointer-y, 50%), #ffffffa1, transparent 80%); opacity: 0; z-index: -1; transition: opacity .35s; }
+#skills .tech-icon { display: inline-flex; flex: 0 0 36px; width: 36px; height: 40px; align-items: center; justify-content: center; }
+#skills .tech-icon-motion { display: flex; width: 100%; height: 100%; align-items: center; justify-content: center; }
+#skills .tech-icon img { display: block; width: 36px; height: 36px; object-fit: contain; }
+#skills .tech-label { font-size: clamp(12px, .95vw, 15px); line-height: 1.4; font-weight: 550; letter-spacing: -.015em; overflow-wrap: break-word; min-width: 0; }
+#skills .tech-card[data-capability] .tech-icon { color: #60794f; }
+#skills .tech-card[data-capability] .tech-label { font-weight: 500; }
+#skills .tech-card[data-tech="mendix"] .tech-icon img { width: 40px; }
+@media (hover: hover) and (pointer: fine) {
+  #skills .tech-card:hover .tech-card-surface { border-color: #829779; background-color: #f4f5ed; box-shadow: 0 12px 22px -16px #20362d66; }
+  #skills .tech-card:hover .tech-card-surface::before { opacity: 1; }
+}
+@media (min-width: 1600px) {
+  #skills .tech-card-surface { min-height: 106px; padding: 24px; gap: 18px; }
+  #skills .tech-icon, #skills .tech-icon img { width: 42px; height: 42px; flex-basis: 42px; }
+}
+@media (max-width: 1100px) {
+  #skills .skill-row { grid-template-columns: minmax(0, .8fr) minmax(0, 1.8fr); gap: 28px; }
+  #skills .skill-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 760px) {
+  #skills { padding-top: 0; }
+  #skills .skills-header { grid-template-columns: 1fr; gap: 28px; padding-top: 36px; }
+  #skills .skills-title { font-size: clamp(62px, 13.7vw, 100px); margin-top: 26px; }
+  #skills .skills-title em { margin-left: 1.02em; }
+  #skills .skills-intro { font-size: 17px; max-width: 34ch; margin: 0; }
+  #skills .skill-filters { margin-top: 32px; gap: 8px; }
+  #skills .skill-filters button { padding: 10px 14px; font-size: 11px; }
+  #skills .skill-groups { margin-top: 24px; }
+  #skills .skill-row { grid-template-columns: 1fr; gap: 24px; padding-block: 28px; }
+  #skills .skill-category { flex-direction: row; align-items: start; justify-content: space-between; gap: 24px; }
+  #skills .skill-category h3 { font-size: clamp(24px, 5vw, 34px); max-width: 15ch; }
+  #skills .skill-category-meta { flex-shrink: 0; padding-top: 7px; font-size: 9px; gap: 6px; }
+  #skills .skill-category-meta::before { display: none; }
+  #skills .skill-list { gap: 10px; }
+  #skills .skill-list .tech-card { min-height: 88px; }
+  #skills .tech-card-surface { padding: 16px 12px; gap: 10px; }
+  #skills .tech-label { font-size: 13px; }
+  #skills .tech-icon { flex-basis: 32px; width: 32px; }
+  #skills .tech-icon img { width: 32px; height: 32px; }
+}
+@media (max-width: 360px) {
+  #skills .skill-category { gap: 12px; }
+  #skills .skill-category-meta { flex-direction: column; align-items: end; gap: 2px; }
+  #skills .tech-card-surface { padding-inline: 10px; gap: 8px; }
+  #skills .tech-icon { flex-basis: 26px; width: 26px; }
+  #skills .tech-icon img { width: 26px; height: 30px; }
+  #skills .tech-label { font-size: 12px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  #skills .tech-card-surface, #skills .tech-card-surface::before { transition: none; }
+}
+.motion-off #skills .tech-card-surface, .motion-off #skills .tech-icon, .motion-off #skills .tech-icon-motion { transform: none !important; }
+@media print {
+  #skills .skill-row { break-inside: avoid; padding-block: 20px; }
+  #skills .skill-list { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  #skills .tech-card-surface { min-height: 64px; padding: 12px; }
+}

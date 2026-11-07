@@ -1,0 +1,56 @@
+{
+  "before": {
+    "tickers": 1,
+    "scroll": 6185,
+    "triggers": 26,
+    "projects": [
+      {
+        "slug": "crizpo",
+        "progress": 0.1796657381615599
+      },
+      {
+        "slug": "crizpo",
+        "progress": 0.2208994708994709
+      },
+      {
+        "slug": "ar-engineerings",
+        "progress": 0
+      },
+      {
+        "slug": "ar-engineerings",
+        "progress": 0
+      }
+    ]
+  },
+  "after": {
+    "tickers": 1,
+    "scroll": 6835,
+    "triggers": 25,
+    "projects": [
+      {
+        "slug": "crizpo",
+        "progress": 0.6323119777158774
+      },
+      {
+        "slug": "crizpo",
+        "progress": 0.6507936507936508
+      },
+      {
+        "slug": "ar-engineerings",
+        "progress": 0.18882175226586104
+      },
+      {
+        "slug": "ar-engineerings",
+        "progress": 0.23285714285714285
+      }
+    ]
+  },
+  "reduced": {
+    "tickers": 0,
+    "scroll": 6835,
+    "triggers": 0,
+    "projects": []
+  },
+  "medianFrameMs": 6.900000000000546,
+  "p95FrameMs": 7.100000000000364
+}

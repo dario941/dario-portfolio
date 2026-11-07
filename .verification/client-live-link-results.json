@@ -1,0 +1,24 @@
+[
+  {
+    "name": "CRIZPO",
+    "url": "https://www.crizpoksa.com/",
+    "status": 403,
+    "title": "Crizpo Taif · Broast, Burgers & More",
+    "language": {
+      "lang": "ar",
+      "dir": "rtl",
+      "arabic": true
+    }
+  },
+  {
+    "name": "AR Engineerings",
+    "url": "https://www.ar-eng.net/",
+    "status": 200,
+    "title": "AR Engineering | Industrial & Construction Services Saudi Arabia",
+    "language": {
+      "lang": "ar",
+      "dir": "rtl",
+      "arabic": true
+    }
+  }
+]

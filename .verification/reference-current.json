@@ -1,0 +1,64 @@
+{
+  "title": "Aitezaz Sikandar - Full Stack Developer",
+  "chars": 15,
+  "sections": [
+    {
+      "id": "about",
+      "y": 950
+    },
+    {
+      "id": "services",
+      "y": 3768.734375
+    },
+    {
+      "id": "tech-stack",
+      "y": 5924.046875
+    },
+    {
+      "id": "projects",
+      "y": 7620.984375
+    },
+    {
+      "id": "contact",
+      "y": 9185.828125
+    }
+  ],
+  "buttons": [
+    "Toggle menu",
+    "01Home→",
+    "02About→",
+    "03Services→",
+    "04Work→",
+    "05Contact→",
+    "Scroll to contact section",
+    "PROJECTSVIEW WORK →",
+    "CONTACTGET IN TOUCH →",
+    "All Categories",
+    "Frontend",
+    "Backend & Real-Time",
+    "Database & ORM",
+    "DevOps & Cloud",
+    "AI, Testing & Tools",
+    "SEND MESSAGEPROCEED →",
+    "Copy aitezazsikandar@gmail.com to clipboard",
+    "Scroll to top"
+  ],
+  "hover": [
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -3.00826, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -9.95462, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -16.2728, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -15.2066, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -12.9402, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -10.9112, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -9.10598, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -5.05446, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -6.12698, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -7.3416, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -8.70685, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -10.2318, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -10.9492, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -6.69798, 0, 1)",
+    "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -2.02411, 0, 1)"
+  ],
+  "filtered": "MY\nTECH\nstack\n\nA\nselection\nof\ntechnologies\nI\nuse\nto\ndesign,\nbuild,\nand\ndeploy\nfull-stack\nweb\napplications.\n\nAll Categories\nFrontend\nBackend & Real-Time\nDatabase & ORM\nDevOps & Cloud\nAI, Testing & Tools\nBACKEND & REAL-TIME\n4 TECHNOLOGIES\n\nNode.js\n\nExpress.js\n\nSocket.io\n\nFirebase"
+}

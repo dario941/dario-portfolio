@@ -1,0 +1,50 @@
+[
+  {
+    "name": "master-production 320px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "master-production 375px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "master-production 430px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "master-production 768px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "master-production 1024px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "master-production 1440px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "master-production 1920px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "master-production full scroll",
+    "detail": "all sections visible, timeline progress, motion toggle, live preference changes, hash/back history"
+  },
+  {
+    "name": "master-production future projects",
+    "detail": "dynamic insertion, clipped image reveal, text, desktop preview, removal"
+  },
+  {
+    "name": "master-production reduced initial state",
+    "detail": "static content and immediate navigation"
+  },
+  {
+    "name": "master-production failed module",
+    "detail": "preloader fails open, HTML readable, navigation still works"
+  },
+  {
+    "name": "master-production no JavaScript",
+    "detail": "content and anchor navigation available"
+  }
+]

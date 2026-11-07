@@ -1,0 +1,22 @@
+[
+  {
+    "name": "intro-update-regression full scroll",
+    "detail": "all sections visible, timeline progress, motion toggle, live preference changes, hash/back history"
+  },
+  {
+    "name": "intro-update-regression future projects",
+    "detail": "dynamic insertion, clipped image reveal, text, desktop preview, removal"
+  },
+  {
+    "name": "intro-update-regression reduced initial state",
+    "detail": "static content and immediate navigation"
+  },
+  {
+    "name": "intro-update-regression failed module",
+    "detail": "preloader fails open, HTML readable, navigation still works"
+  },
+  {
+    "name": "intro-update-regression no JavaScript",
+    "detail": "content and anchor navigation available"
+  }
+]

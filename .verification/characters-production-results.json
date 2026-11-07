@@ -1,0 +1,50 @@
+[
+  {
+    "name": "characters-production 320px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "characters-production 375px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "characters-production 430px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "characters-production 768px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "characters-production 1024px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "characters-production 1440px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "characters-production 1920px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "characters-production full scroll",
+    "detail": "all sections visible, timeline progress, motion toggle, live preference changes, hash/back history"
+  },
+  {
+    "name": "characters-production future projects",
+    "detail": "dynamic insertion, clipped image reveal, text, desktop preview, removal"
+  },
+  {
+    "name": "characters-production reduced initial state",
+    "detail": "static content and immediate navigation"
+  },
+  {
+    "name": "characters-production failed module",
+    "detail": "preloader fails open, HTML readable, navigation still works"
+  },
+  {
+    "name": "characters-production no JavaScript",
+    "detail": "content and anchor navigation available"
+  }
+]

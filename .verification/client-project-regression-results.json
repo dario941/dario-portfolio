@@ -1,0 +1,22 @@
+[
+  {
+    "name": "client-project-regression full scroll",
+    "detail": "all sections visible, timeline progress, motion toggle, live preference changes, hash/back history"
+  },
+  {
+    "name": "client-project-regression future projects",
+    "detail": "dynamic insertion, clipped image reveal, text, desktop preview, removal"
+  },
+  {
+    "name": "client-project-regression reduced initial state",
+    "detail": "static content and immediate navigation"
+  },
+  {
+    "name": "client-project-regression failed module",
+    "detail": "preloader fails open, HTML readable, navigation still works"
+  },
+  {
+    "name": "client-project-regression no JavaScript",
+    "detail": "content and anchor navigation available"
+  }
+]

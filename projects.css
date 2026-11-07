@@ -1,0 +1,32 @@
+/* Only the new client projects and their shared floating preview. */
+.project-card[data-project] { position: relative; padding-top: 32px; min-width: 0; }
+.project-card[data-project]::before { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 1px; background: #bcc6b6; transform: scaleX(var(--project-line, 1)); transform-origin: left; }
+.project-card[data-project] > div { min-width: 0; }
+.project-category { display: block; line-height: 1.7; }
+.project-title-motion { display: inline-block; text-decoration: none; }
+.project-card[data-project] .project-delivery { font-size: 12px; margin-top: 16px; line-height: 1.6; }
+.project-card[data-project] .project-media { border: 1px solid #bcc6b6; position: relative; }
+.project-card[data-project] .project-media img { aspect-ratio: 36 / 25; object-fit: cover; }
+.project-media-caption { position: relative; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 18px; background: var(--paper); color: var(--ink); font-size: 11px; letter-spacing: .06em; }
+.project-media-caption .arrow { width: 15px; height: 15px; }
+.project-card[data-project] .project-links { align-items: center; gap: 12px 24px; }
+.project-card[data-project] .project-links a { min-height: 44px; }
+.project-link-motion { display: inline-flex; align-items: center; gap: 12px; }
+.project-card[data-project] .skill-list { gap: 8px; }
+.project-card[data-project] .skill-list li { min-height: 34px; padding: 6px 10px; font-size: 11px; }
+.project-preview-caption { display: none; }
+.project-preview[data-project] { width: clamp(260px, 25vw, 360px); max-height: none; padding: 7px; border: 1px solid var(--line); background: var(--paper); transform-origin: center; }
+.project-preview[data-project] img { aspect-ratio: 36 / 25; object-fit: cover; }
+.project-preview[data-project] .project-preview-caption { display: flex; align-items: center; gap: 9px; padding: 10px 6px 4px; font-size: 10px; font-weight: 500; letter-spacing: .08em; color: var(--ink); }
+.project-preview[data-project="crizpo"] .project-preview-caption::before { content: '✳'; color: var(--ink); font-size: 18px; line-height: 12px; }
+.project-preview[data-project="ar-engineerings"] .project-preview-caption::before { content: ''; width: 13px; height: 13px; border: 1px solid var(--ink); background: linear-gradient(90deg, transparent 45%, var(--ink) 45%, var(--ink) 55%, transparent 55%), linear-gradient(transparent 45%, var(--ink) 45%, var(--ink) 55%, transparent 55%); }
+@media (max-width: 760px) {
+  .project-card[data-project] { padding-top: 24px; }
+  .project-card[data-project] .project-category { font-size: 10px; }
+  .project-card[data-project] .project-links { column-gap: 20px; }
+}
+@media (hover: none), (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .project-preview { display: none !important; }
+  .project-card[data-project] .project-media img { transition: none; }
+  .project-title-motion, .project-link-motion { transform: none !important; }
+}

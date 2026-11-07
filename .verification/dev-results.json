@@ -1,0 +1,50 @@
+[
+  {
+    "name": "dev 320px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "dev 375px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "dev 430px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "dev 768px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "dev 1024px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "dev 1440px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "dev 1920px",
+    "detail": "no page/heading overflow; intro; empty work; menu; Escape; focus; anchor; back-to-top"
+  },
+  {
+    "name": "dev full scroll",
+    "detail": "all sections visible, timeline progress, motion toggle, live preference changes, hash/back history"
+  },
+  {
+    "name": "dev future projects",
+    "detail": "dynamic insertion, clipped image reveal, text, desktop preview, removal"
+  },
+  {
+    "name": "dev reduced initial state",
+    "detail": "static content and immediate navigation"
+  },
+  {
+    "name": "dev failed module",
+    "detail": "preloader fails open, HTML readable, navigation still works"
+  },
+  {
+    "name": "dev no JavaScript",
+    "detail": "content and anchor navigation available"
+  }
+]

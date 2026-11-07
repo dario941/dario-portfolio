@@ -1,0 +1,97 @@
+[
+  {
+    "width": 320,
+    "height": 740,
+    "milliseconds": 4543.266666690509,
+    "shifts": 0,
+    "frames": 628,
+    "final": {
+      "contentUnchanged": true,
+      "inert": false,
+      "locked": false,
+      "heroVisible": true,
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "width": 375,
+    "height": 812,
+    "milliseconds": 4543.866666714351,
+    "shifts": 0,
+    "frames": 648,
+    "final": {
+      "contentUnchanged": true,
+      "inert": false,
+      "locked": false,
+      "heroVisible": true,
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "milliseconds": 4551.966666618983,
+    "shifts": 0,
+    "frames": 646,
+    "final": {
+      "contentUnchanged": true,
+      "inert": false,
+      "locked": false,
+      "heroVisible": true,
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "width": 1440,
+    "height": 950,
+    "milliseconds": 4553.066666642825,
+    "shifts": 0,
+    "frames": 637,
+    "final": {
+      "contentUnchanged": true,
+      "inert": false,
+      "locked": false,
+      "heroVisible": true,
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ]
+    }
+  },
+  {
+    "width": 812,
+    "height": 375,
+    "milliseconds": 4545.866666595141,
+    "shifts": 0,
+    "frames": 638,
+    "final": {
+      "contentUnchanged": true,
+      "inert": false,
+      "locked": false,
+      "heroVisible": true,
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ]
+    }
+  }
+]

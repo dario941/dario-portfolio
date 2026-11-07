@@ -1,0 +1,89 @@
+[
+  {
+    "width": 1440,
+    "title": "Aitezaz Sikandar - Full Stack Developer",
+    "errors": [],
+    "sections": [
+      {
+        "id": "about",
+        "y": 950
+      },
+      {
+        "id": "services",
+        "y": 3768.734375
+      },
+      {
+        "id": "tech-stack",
+        "y": 5924.046875
+      },
+      {
+        "id": "projects",
+        "y": 7620.984375
+      },
+      {
+        "id": "contact",
+        "y": 9185.828125
+      }
+    ],
+    "hero": "AITEZAZ\nsikandar",
+    "hover": [
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, 0, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, 0, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, 0, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -2.78074, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -9.74726, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -16.0846, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -15.2815, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -8.75207, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -10.2822, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -10.8226, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -6.55846, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, -1.87102, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, 0, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, 0, 0, 1)",
+      "matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.00111111, 0, 0, 0, 1)"
+    ],
+    "tech": "MY\nTECH\nstack\n\nA\nselection\nof\ntechnologies\nI\nuse\nto\ndesign,\nbuild,\nand\ndeploy\nfull-stack\nweb\napplications.\n\nAll Categories\nFrontend\nBackend & Real-Time\nDatabase & ORM\nDevOps & Cloud\nAI, Testing & Tools\nFRONTEND\n8 TECHNOLOGIES\n\nJavaScript\n\nTypeScript\n\nReact\n\nNext.js\n\nRedux Toolkit\n\nTailwind CSS\n\nBootstrap\n\nGSAP\n\nBACKEND & REAL-TIME\n4 TECHNOLOGIES\n\nNode.js\n\nExpress.js\n\nSocket.io\n\nFirebase\n\nDATABASE & ORM\n3 TECHNOLOGIES\n\nMongoDB\n\nMongoose\n\nMySQL\n\nDEVOPS & CLOUD\n5 TECHNOLOGIES\n\nDocker\n\nGitHub Actions\n\nAWS\n\nNginx\n\nLinux\n\nAI, TESTING & TOOLS\n8 TECHNOLOGIES\n\nGemini AI\n\nJest\n\nZod\n\nStripe\n\nCloudinary\n\nGit\n\nPostman\n\nFigma",
+    "overflow": {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    "filtered": "MY\nTECH\nstack\n\nA\nselection\nof\ntechnologies\nI\nuse\nto\ndesign,\nbuild,\nand\ndeploy\nfull-stack\nweb\napplications.\n\nAll Categories\nFrontend\nBackend & Real-Time\nDatabase & ORM\nDevOps & Cloud\nAI, Testing & Tools\nBACKEND & REAL-TIME\n4 TECHNOLOGIES\n\nNode.js\n\nExpress.js\n\nSocket.io\n\nFirebase",
+    "iconHover": "matrix(0.836425, -0.697207, 0.697207, 0.836425, 0, 0)",
+    "iconSettled": "matrix(1.1, 0, 0, 1.1, 0, 0)"
+  },
+  {
+    "width": 375,
+    "title": "Aitezaz Sikandar - Full Stack Developer",
+    "errors": [],
+    "sections": [
+      {
+        "id": "about",
+        "y": 950
+      },
+      {
+        "id": "services",
+        "y": 3737.09375
+      },
+      {
+        "id": "tech-stack",
+        "y": 5564.75
+      },
+      {
+        "id": "projects",
+        "y": 7889.15625
+      },
+      {
+        "id": "contact",
+        "y": 10635.328125
+      }
+    ],
+    "hero": "AITEZAZ\nsikandar",
+    "tech": "MY\nstack\nAll Categories\nFrontend\nBackend & Real-Time\nDatabase & ORM\nDevOps & Cloud\nAI, Testing & Tools\nFRONTEND\n8 TECHNOLOGIES\n\nJavaScript\n\nTypeScript\n\nReact\n\nNext.js\n\nRedux Toolkit\n\nTailwind CSS\n\nBootstrap\n\nGSAP\n\nBACKEND & REAL-TIME\n4 TECHNOLOGIES\n\nNode.js\n\nExpress.js\n\nSocket.io\n\nFirebase\n\nDATABASE & ORM\n3 TECHNOLOGIES\n\nMongoDB\n\nMongoose\n\nMySQL\n\nDEVOPS & CLOUD\n5 TECHNOLOGIES\n\nDocker\n\nGitHub Actions\n\nAWS\n\nNginx\n\nLinux\n\nAI, TESTING & TOOLS\n8 TECHNOLOGIES\n\nGemini AI\n\nJest\n\nZod\n\nStripe\n\nCloudinary\n\nGit\n\nPostman\n\nFigma",
+    "overflow": {
+      "width": 375,
+      "scrollWidth": 375
+    },
+    "filtered": "MY\nstack\nAll Categories\nFrontend\nBackend & Real-Time\nDatabase & ORM\nDevOps & Cloud\nAI, Testing & Tools\nBACKEND & REAL-TIME\n4 TECHNOLOGIES\n\nNode.js\n\nExpress.js\n\nSocket.io\n\nFirebase"
+  }
+]

@@ -1,0 +1,73 @@
+[
+  {
+    "file": "html5.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/html5/html5-original.svg",
+    "bytes": 607
+  },
+  {
+    "file": "css3.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/css3/css3-original.svg",
+    "bytes": 778
+  },
+  {
+    "file": "javascript.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/javascript/javascript-original.svg",
+    "bytes": 1144
+  },
+  {
+    "file": "react.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/react/react-original.svg",
+    "bytes": 2387
+  },
+  {
+    "file": "git.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/git/git-original.svg",
+    "bytes": 778
+  },
+  {
+    "file": "postman.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/postman/postman-original.svg",
+    "bytes": 3729
+  },
+  {
+    "file": "nodejs.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/nodejs/nodejs-original.svg",
+    "bytes": 1806
+  },
+  {
+    "file": "express.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/express/express-original.svg",
+    "bytes": 914
+  },
+  {
+    "file": "mysql.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mysql/mysql-original.svg",
+    "bytes": 2765
+  },
+  {
+    "file": "mongodb.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/mongodb/mongodb-original.svg",
+    "bytes": 5611
+  },
+  {
+    "file": "python.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/python/python-original.svg",
+    "bytes": 2300
+  },
+  {
+    "file": "java.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/java/java-original.svg",
+    "bytes": 1540
+  },
+  {
+    "file": "cplusplus.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/cplusplus/cplusplus-original.svg",
+    "bytes": 1143
+  },
+  {
+    "file": "mendix.svg",
+    "source": "https://www.mendix.com/wp-content/uploads/newsroom-mendix-logo-icon.svg",
+    "source_page": "https://www.mendix.com/press/",
+    "bytes": 1252
+  }
+]
