@@ -1,0 +1,146 @@
+{
+  "durations": {
+    "greetingDuration": 2.73,
+    "exitDuration": 1.806
+  },
+  "intro": {
+    "greetings": [
+      "Hello",
+      "Hola",
+      "Bonjour",
+      "Ciao",
+      "مرحبا",
+      "こんにちは",
+      "ನಮಸ್ಕಾರ",
+      "नमस्ते"
+    ],
+    "handoff": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ]
+  },
+  "profiles": [
+    {
+      "key": "tailwindcss",
+      "duration": 2.8,
+      "x": 2,
+      "y": -4,
+      "rotation": -3,
+      "paused": false
+    },
+    {
+      "key": "gsap",
+      "duration": 1.6,
+      "x": 2,
+      "y": 0,
+      "rotation": 0,
+      "paused": false
+    },
+    {
+      "key": "lenis",
+      "duration": 3.6,
+      "x": 0,
+      "y": -5,
+      "rotation": 0,
+      "paused": false
+    },
+    {
+      "key": "motion",
+      "duration": 3.3,
+      "x": 0,
+      "y": 0,
+      "rotation": 3,
+      "paused": false
+    }
+  ],
+  "cleanup": {
+    "tickers": 0,
+    "triggers": 0,
+    "hero": [
+      {
+        "transform": "none",
+        "animations": 0
+      },
+      {
+        "transform": "none",
+        "animations": 0
+      },
+      {
+        "transform": "none",
+        "animations": 0
+      },
+      {
+        "transform": "none",
+        "animations": 0
+      }
+    ],
+    "idle": 0
+  },
+  "errors": []
+}

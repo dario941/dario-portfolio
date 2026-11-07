@@ -1,0 +1,27 @@
+/* Reference pill proportions and rolling labels; existing hero entrance owns the links. */
+.hero-actions .hero-cta { display: inline-flex; border-radius: 999px; font: 500 14px/1 var(--body); text-decoration: none; }
+.hero-pill { position: relative; display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 32px; border: 2px solid var(--ink); border-radius: inherit; overflow: hidden; isolation: isolate; transition: background-color .4s ease-out, border-color .4s ease-out; }
+.hero-cta--resume .hero-pill { border: 1px solid #111a1640; color: #45524b; }
+.hero-cta-label { position: relative; display: inline-flex; align-items: center; justify-content: center; height: 100%; z-index: 1; white-space: nowrap; transition: transform .3s ease-in-out; }
+.hero-cta-label--next { position: absolute; inset: 100% 0 auto; gap: 5px; }
+.hero-cta-arrow { display: inline-block; }
+.hero-cta-ripple { position: absolute; width: 100px; height: 100px; margin: -50px 0 0 -50px; border-radius: 50%; background: #1415161a; opacity: 0; pointer-events: none; }
+.hero-cta--resume .hero-cta-ripple { background: #111a1614; }
+.hero-actions .hero-cta:focus-visible { outline: 2px solid var(--forest); outline-offset: 5px; }
+.hero-cta:focus-visible .hero-pill { background: #1415160f; }
+.hero-cta:focus-visible .hero-cta-label { transform: translateY(-100%); }
+@media (hover: hover) and (pointer: fine) {
+  .hero-cta:hover .hero-pill { background: #1415160f; }
+  .hero-cta--resume:hover .hero-pill { background: #111a160a; border-color: #111a1666; }
+  .hero-cta:hover .hero-cta-label { transform: translateY(-100%); }
+}
+@media (max-width: 767px) {
+  .hero-actions .hero-cta { font-size: 12px; }
+  .hero-pill { height: 44px; padding-inline: 24px; }
+}
+@media (max-width: 360px) { .hero-pill { padding-inline: 22px; } }
+@media (prefers-reduced-motion: reduce) {
+  .hero-pill, .hero-cta-label { transition: none; }
+}
+.motion-off .hero-pill, .motion-off .hero-cta-label { transition: none; }
+.motion-off .hero-pill { transform: none !important; }

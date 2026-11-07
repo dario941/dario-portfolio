@@ -1,0 +1,1049 @@
+[
+  {
+    "name": "Contact",
+    "rest": {
+      "html": "<button class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin:center\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color:rgba(20, 21, 22, 0.1);opacity:0\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">CONTACT</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">GET IN TOUCH →</span></button>",
+      "box": {
+        "x": 660.140625,
+        "y": 765.09375,
+        "width": 130.171875,
+        "height": 48,
+        "top": 765.09375,
+        "right": 790.3125,
+        "bottom": 813.09375,
+        "left": 660.140625
+      },
+      "styles": [
+        {
+          "tag": "BUTTON",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "130.172px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "2px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(20, 21, 22, 0.1)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "CONTACT",
+          "position": "relative",
+          "width": "62.1719px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "GET IN TOUCH →",
+          "position": "absolute",
+          "width": "126.172px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": []
+    },
+    "hoverEarly": {
+      "html": "<button class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: rgba(16, 16, 17, 0.047); translate: none; rotate: none; scale: none; transform: translate3d(-0.0622px, -0.0257px, 0px);\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(20, 21, 22, 0.1); opacity: 0.7577; transform: translate(-50%, -50%) translate3d(0px, 0px, 0px) scale(0.8432, 0.8432); translate: none; rotate: none; scale: none; top: 24px; left: 65px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">CONTACT</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">GET IN TOUCH →</span></button>",
+      "box": {
+        "x": 660.0784301757812,
+        "y": 765.0680541992188,
+        "width": 130.171875,
+        "height": 48,
+        "top": 765.0680541992188,
+        "right": 790.2503051757812,
+        "bottom": 813.0680541992188,
+        "left": 660.0784301757812
+      },
+      "styles": [
+        {
+          "tag": "BUTTON",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "130.172px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "2px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(16, 16, 17, 0.047)",
+          "transform": "matrix(1, 0, 0, 1, -0.0622, -0.0257)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(20, 21, 22, 0.1)",
+          "transform": "matrix(0.8432, 0, 0, 0.8432, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "CONTACT",
+          "position": "relative",
+          "width": "62.1719px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "GET IN TOUCH →",
+          "position": "absolute",
+          "width": "126.172px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": [
+        {
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 300,
+            "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "0px -100%",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 300,
+            "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "none",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "0px -100%",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    "hover": {
+      "html": "<button class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: rgba(20, 21, 22, 0.06); translate: none; rotate: none; scale: none; transform: translate(-0.0793px, -0.0328px);\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(20, 21, 22, 0.1); opacity: 0.6; transform: translate(-50%, -50%) scale(1.3923, 1.3923); translate: none; rotate: none; scale: none; top: 24px; left: 65px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">CONTACT</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">GET IN TOUCH →</span></button>",
+      "box": {
+        "x": 660.0613403320312,
+        "y": 765.0609130859375,
+        "width": 130.171875,
+        "height": 48.00006103515625,
+        "top": 765.0609130859375,
+        "right": 790.2332153320312,
+        "bottom": 813.0609741210938,
+        "left": 660.0613403320312
+      },
+      "styles": [
+        {
+          "tag": "BUTTON",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "130.172px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "2px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(20, 21, 22, 0.06)",
+          "transform": "matrix(1, 0, 0, 1, -0.0793, -0.0328)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(20, 21, 22, 0.1)",
+          "transform": "matrix(1.3923, 0, 0, 1.3923, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "CONTACT",
+          "position": "relative",
+          "width": "62.1719px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "GET IN TOUCH →",
+          "position": "absolute",
+          "width": "126.172px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": []
+    },
+    "outEarly": {
+      "html": "<button class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: rgba(195, 195, 195, 0.016); translate: none; rotate: none; scale: none; transform: translate3d(0.0114px, 0.0047px, 0px);\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(20, 21, 22, 0.1); opacity: 0.2129; transform: translate(-50%, -50%) translate3d(0px, 0px, 0px) scale(0.4941, 0.4941); translate: none; rotate: none; scale: none; top: 24px; left: 65px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">CONTACT</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">GET IN TOUCH →</span></button>",
+      "box": {
+        "x": 660.1520385742188,
+        "y": 765.0984497070312,
+        "width": 130.171875,
+        "height": 48,
+        "top": 765.0984497070312,
+        "right": 790.3239135742188,
+        "bottom": 813.0984497070312,
+        "left": 660.1520385742188
+      },
+      "styles": [
+        {
+          "tag": "BUTTON",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "130.172px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "2px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(195, 195, 195, 0.016)",
+          "transform": "matrix(1, 0, 0, 1, 0.0114, 0.0047)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(20, 21, 22, 0.1)",
+          "transform": "matrix(0.4941, 0, 0, 0.4941, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "CONTACT",
+          "position": "relative",
+          "width": "62.1719px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "GET IN TOUCH →",
+          "position": "absolute",
+          "width": "126.172px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": [
+        {
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 300,
+            "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "0px -100%",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "none",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 300,
+            "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "0px -100%",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "none",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    "out": {
+      "html": "<button class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(20, 21, 22, 0.1); opacity: 0; transform: translate(-50%, -50%) scale(0, 0); translate: none; rotate: none; scale: none; top: 24px; left: 65px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">CONTACT</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">GET IN TOUCH →</span></button>",
+      "box": {
+        "x": 660.140625,
+        "y": 765.09375,
+        "width": 130.171875,
+        "height": 48,
+        "top": 765.09375,
+        "right": 790.3125,
+        "bottom": 813.09375,
+        "left": 660.140625
+      },
+      "styles": [
+        {
+          "tag": "BUTTON",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#141516] border-2 border-[#141516] group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "130.172px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "2px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(20, 21, 22, 0.1)",
+          "transform": "matrix(0, 0, 0, 0, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "CONTACT",
+          "position": "relative",
+          "width": "62.1719px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "GET IN TOUCH →",
+          "position": "absolute",
+          "width": "126.172px",
+          "height": "44px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(20, 21, 22)",
+          "borderRadius": "0px",
+          "color": "rgb(20, 21, 22)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": []
+    }
+  },
+  {
+    "name": "Resume",
+    "rest": {
+      "html": "<a class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin:center\" href=\"/01_aitezaz_resume.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color:rgba(17, 26, 22, 0.08);opacity:0\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">RESUME</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">DOWNLOAD →</span></a>",
+      "box": {
+        "x": 806.3125,
+        "y": 765.09375,
+        "width": 119.625,
+        "height": 48,
+        "top": 765.09375,
+        "right": 925.9375,
+        "bottom": 813.09375,
+        "left": 806.3125
+      },
+      "styles": [
+        {
+          "tag": "A",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "119.625px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "1px solid oklab(0.207291 -0.0149673 0.00377271 / 0.25)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(17, 26, 22, 0.08)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "RESUME",
+          "position": "relative",
+          "width": "53.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "DOWNLOAD →",
+          "position": "absolute",
+          "width": "117.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": []
+    },
+    "hoverEarly": {
+      "html": "<a class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: rgba(17, 26, 22, 0.04); translate: none; rotate: none; scale: none; transform: translate(-0.0437px, -0.0328px);\" href=\"/01_aitezaz_resume.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(17, 26, 22, 0.08); opacity: 0.6; transform: translate(-50%, -50%) scale(1.292, 1.292); translate: none; rotate: none; scale: none; top: 24px; left: 60px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">RESUME</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">DOWNLOAD →</span></a>",
+      "box": {
+        "x": 806.268798828125,
+        "y": 765.0609130859375,
+        "width": 119.625,
+        "height": 48.00006103515625,
+        "top": 765.0609130859375,
+        "right": 925.893798828125,
+        "bottom": 813.0609741210938,
+        "left": 806.268798828125
+      },
+      "styles": [
+        {
+          "tag": "A",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "119.625px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "1px solid oklab(0.207291 -0.0149673 0.00377271 / 0.25)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(17, 26, 22, 0.04)",
+          "transform": "matrix(1, 0, 0, 1, -0.0437, -0.0328)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(17, 26, 22, 0.08)",
+          "transform": "matrix(1.292, 0, 0, 1.292, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "RESUME",
+          "position": "relative",
+          "width": "53.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "DOWNLOAD →",
+          "position": "absolute",
+          "width": "117.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": []
+    },
+    "hover": {
+      "html": "<a class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: rgba(17, 26, 22, 0.04); translate: none; rotate: none; scale: none; transform: translate(-0.0437px, -0.0328px);\" href=\"/01_aitezaz_resume.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(17, 26, 22, 0.08); opacity: 0.6; transform: translate(-50%, -50%) scale(1.292, 1.292); translate: none; rotate: none; scale: none; top: 24px; left: 60px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">RESUME</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">DOWNLOAD →</span></a>",
+      "box": {
+        "x": 806.268798828125,
+        "y": 765.0609130859375,
+        "width": 119.625,
+        "height": 48.00006103515625,
+        "top": 765.0609130859375,
+        "right": 925.893798828125,
+        "bottom": 813.0609741210938,
+        "left": 806.268798828125
+      },
+      "styles": [
+        {
+          "tag": "A",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "119.625px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "1px solid oklab(0.207291 -0.0149673 0.00377271 / 0.25)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(17, 26, 22, 0.04)",
+          "transform": "matrix(1, 0, 0, 1, -0.0437, -0.0328)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(17, 26, 22, 0.08)",
+          "transform": "matrix(1.292, 0, 0, 1.292, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "RESUME",
+          "position": "relative",
+          "width": "53.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "DOWNLOAD →",
+          "position": "absolute",
+          "width": "117.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": []
+    },
+    "outEarly": {
+      "html": "<a class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: rgba(208, 210, 209, 0.008); translate: none; rotate: none; scale: none; transform: translate3d(0.0021px, 0.0016px, 0px);\" href=\"/01_aitezaz_resume.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(17, 26, 22, 0.08); opacity: 0.1772; transform: translate(-50%, -50%) translate3d(0px, 0px, 0px) scale(0.3817, 0.3817); translate: none; rotate: none; scale: none; top: 24px; left: 60px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">RESUME</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">DOWNLOAD →</span></a>",
+      "box": {
+        "x": 806.3145751953125,
+        "y": 765.0953369140625,
+        "width": 119.625,
+        "height": 48,
+        "top": 765.0953369140625,
+        "right": 925.9395751953125,
+        "bottom": 813.0953369140625,
+        "left": 806.3145751953125
+      },
+      "styles": [
+        {
+          "tag": "A",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "119.625px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "1px solid oklab(0.207291 -0.0149673 0.00377271 / 0.25)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(208, 210, 209, 0.008)",
+          "transform": "matrix(1, 0, 0, 1, 0.0021, 0.0016)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(17, 26, 22, 0.08)",
+          "transform": "matrix(0.3817, 0, 0, 0.3817, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "RESUME",
+          "position": "relative",
+          "width": "53.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "DOWNLOAD →",
+          "position": "absolute",
+          "width": "117.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": [
+        {
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 300,
+            "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "0px -100%",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "none",
+              "computedOffset": 1
+            }
+          ]
+        },
+        {
+          "timing": {
+            "delay": 0,
+            "direction": "normal",
+            "duration": 300,
+            "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
+            "endDelay": 0,
+            "fill": "backwards",
+            "iterationStart": 0,
+            "iterations": 1
+          },
+          "keyframes": [
+            {
+              "offset": 0,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "0px -100%",
+              "computedOffset": 0
+            },
+            {
+              "offset": 1,
+              "easing": "linear",
+              "composite": "auto",
+              "translate": "none",
+              "computedOffset": 1
+            }
+          ]
+        }
+      ]
+    },
+    "out": {
+      "html": "<a class=\"relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center \" style=\"transform-origin: center center; background-color: transparent; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);\" href=\"/01_aitezaz_resume.pdf\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2\" style=\"background-color: rgba(17, 26, 22, 0.08); opacity: 0; transform: translate(-50%, -50%) scale(0, 0); translate: none; rotate: none; scale: none; top: 24px; left: 60px;\"></span><span class=\"flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10\">RESUME</span><span aria-hidden=\"true\" class=\"flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10\">DOWNLOAD →</span></a>",
+      "box": {
+        "x": 806.3125,
+        "y": 765.09375,
+        "width": 119.625,
+        "height": 48,
+        "top": 765.09375,
+        "right": 925.9375,
+        "bottom": 813.09375,
+        "left": 806.3125
+      },
+      "styles": [
+        {
+          "tag": "A",
+          "class": "relative text-xs md:text-sm outline-none overflow-hidden h-10 md:h-12 px-4 sm:px-6 md:px-8 rounded-full bg-transparent text-[#45524B] border border-[#111A16]/25 group cursor-pointer font-medium inline-flex items-center justify-center ",
+          "position": "relative",
+          "width": "119.625px",
+          "height": "48px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px 32px",
+          "gap": "normal",
+          "border": "1px solid oklab(0.207291 -0.0149673 0.00377271 / 0.25)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "matrix(1, 0, 0, 1, 0, 0)",
+          "overflow": "hidden",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "absolute pointer-events-none rounded-full w-[100px] h-[100px] -translate-x-1/2 -translate-y-1/2",
+          "text": "",
+          "position": "absolute",
+          "width": "100px",
+          "height": "100px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "3.35544e+07px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(17, 26, 22, 0.08)",
+          "transform": "matrix(0, 0, 0, 0, -50, -50)",
+          "overflow": "visible",
+          "transition": "all"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full relative z-10",
+          "text": "RESUME",
+          "position": "relative",
+          "width": "53.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        },
+        {
+          "tag": "SPAN",
+          "class": "flex items-center justify-center h-full absolute inset-0 top-full transition-transform duration-300 ease-in-out group-hover:-translate-y-full z-10",
+          "text": "DOWNLOAD →",
+          "position": "absolute",
+          "width": "117.625px",
+          "height": "46px",
+          "font": "500 14px / 20px ui-sans-serif, system-ui, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Noto Color Emoji\"",
+          "padding": "0px",
+          "gap": "normal",
+          "border": "0px solid rgb(69, 82, 75)",
+          "borderRadius": "0px",
+          "color": "rgb(69, 82, 75)",
+          "background": "rgba(0, 0, 0, 0)",
+          "transform": "none",
+          "overflow": "visible",
+          "transition": "transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), translate 0.3s cubic-bezier(0.4, 0, 0.2, 1), scale 0.3s cubic-bezier(0.4, 0, 0.2, 1), rotate 0.3s cubic-bezier(0.4, 0, 0.2, 1)"
+        }
+      ],
+      "animations": []
+    }
+  }
+]

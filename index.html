@@ -17,6 +17,7 @@
   <link rel="preload" href="/fonts/manrope-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/dm-sans-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/fonts.css">
+  <link rel="stylesheet" href="/hero-actions.css">
   <style>
     /* DESIGN CONTRACT: ivory + forest + sage; editorial typography; 4/8px spacing.
        Content stays readable without JS or CDN fonts. Motion is progressive enhancement.
@@ -84,15 +85,15 @@
     .location { display: inline-flex; align-items: center; gap: 8px; }
     .location svg { width: 15px; height: 15px; }
     .hero-main { padding-block: clamp(40px, 6.5vh, 90px); }
-    .hero-name { position: relative; font-size: clamp(72px, 12.3vw, 210px); font-weight: 650; letter-spacing: -.075em; line-height: .91; }
-    .hero-name .first-name { display: block; white-space: nowrap; }
+    .hero-name { position: relative; font-size: clamp(63px, 10.7625vw, 183.75px); font-weight: 650; letter-spacing: -.075em; line-height: .91; }
+    .hero-name .first-name { display: block; white-space: nowrap; word-spacing: .06em; }
     .hero-name .last-name { display: block; margin-top: .12em; text-align: right; }
     .hero-orbit { position: absolute; width: 16%; aspect-ratio: 1; left: 6%; top: 53%; color: #728469; transform: rotate(-18deg); }
     .hero-orbit svg { width: 100%; height: 100%; }
     .hero-bottom { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: end; margin-top: clamp(40px, 5.5vw, 88px); }
     .hero-role { font-size: clamp(12px, 1vw, 15px); letter-spacing: .09em; font-weight: 600; line-height: 1.7; max-width: 30ch; }
     .hero-statement { max-width: 430px; font-size: clamp(19px, 1.65vw, 26px); line-height: 1.45; letter-spacing: -.025em; }
-    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin-top: 28px; }
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-top: 28px; }
     .hero-foot { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-block: 24px; border-top: 1px solid var(--line); }
     .scroll-link { display: inline-flex; gap: 16px; align-items: center; min-height: 44px; }
     .scroll-link svg { width: 16px; height: 20px; animation: scroll-nudge 2.2s ease-in-out 3; }
@@ -189,11 +190,11 @@
     .footer-bottom { display: flex; justify-content: space-between; gap: 24px; padding-block: 20px; color: var(--dark-muted); font-size: 11px; border-top: 1px solid var(--dark-line); }
     .reveal { opacity: 1; }
     @keyframes scroll-nudge { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(5px); } }
-    @media (min-width: 1600px) { .hero-name { font-size: 210px; } }
+    @media (min-width: 1600px) { .hero-name { font-size: 183.75px; } }
     @media (max-width: 1050px) {
-      .hero-name { font-size: 12.2vw; }
+      .hero-name { font-size: 10.675vw; }
       .hero-bottom { grid-template-columns: .85fr 1.15fr; }
-      .hero-actions { gap: 20px; }
+      .hero-actions { gap: 16px; }
       .button { padding-inline: 18px; gap: 22px; }
       .timeline { margin-left: 33%; }
       .about-grid, .experience-header { grid-template-columns: .8fr 1.2fr; gap: 48px; }
@@ -217,13 +218,13 @@
       .hero-meta { align-items: start; gap: 20px; }
       .hero-meta .eyebrow { font-size: 9px; letter-spacing: .08em; }
       .hero-main { padding-top: 58px; padding-bottom: 40px; }
-      .hero-name { font-size: 13vw; letter-spacing: -.075em; }
+      .hero-name { font-size: 11.375vw; letter-spacing: -.075em; }
       .hero-name .last-name { text-align: right; margin-top: .18em; }
       .hero-orbit { left: 2%; top: 55%; width: 17%; }
       .hero-bottom { display: grid; grid-template-columns: 1fr; gap: 24px; margin-top: 36px; }
       .hero-role { font-size: 10px; max-width: none; }
       .hero-statement { font-size: 21px; max-width: 31ch; }
-      .hero-actions { gap: 24px; margin-top: 24px; }
+      .hero-actions { gap: 12px; margin-top: 24px; }
       .hero-foot { padding-block: 14px; }
       .hero-foot .eyebrow { font-size: 9px; letter-spacing: .06em; }
       .about-grid { grid-template-columns: 1fr; gap: 40px; margin-top: 36px; }
@@ -264,7 +265,7 @@
       .footer-bottom { font-size: 10px; line-height: 1.6; }
     }
     @media (max-width: 440px) {
-      .hero-actions { gap: 18px; }
+      .hero-actions { gap: 12px; }
       .button { gap: 16px; min-height: 52px; padding-inline: 16px; font-size: 12px; }
       .hero-actions .text-link { gap: 10px; font-size: 12px; }
       .hero-actions .arrow { width: 18px; height: 18px; }
@@ -492,7 +493,7 @@
         <li><a href="#services"><small aria-hidden="true">03</small>Services</a></li><li><a href="#skills"><small aria-hidden="true">04</small>Skills</a></li>
         <li><a href="#work"><small aria-hidden="true">05</small>Work</a></li><li><a href="#contact"><small aria-hidden="true">06</small>Contact</a></li>
       </ol></nav>
-      <div class="menu-bottom"><a href="mailto:emaildarioo@gmail.com">emaildarioo@gmail.com ↗</a></div>
+      <div class="menu-bottom"><a href="mailto:dariomartinmonteiro@gmail.com">dariomartinmonteiro@gmail.com ↗</a></div>
     </div>
   </dialog>
   <div class="cursor-ring" aria-hidden="true"><span></span></div><div class="cursor-dot" aria-hidden="true"></div>
@@ -510,8 +511,8 @@
           <div>
             <p class="hero-statement">I build thoughtful digital experiences where clean design meets functional, reliable code.</p>
             <div class="hero-actions">
-              <a href="#work" class="button">Explore My Work <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg></a>
-              <a href="#contact" class="text-link">Get in Touch <svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg></a>
+              <a href="#contact" class="hero-cta" data-smooth-contact><span class="hero-pill"><span class="hero-cta-ripple" aria-hidden="true"></span><span class="hero-cta-label">CONTACT</span><span class="hero-cta-label hero-cta-label--next" aria-hidden="true">GET IN TOUCH <span class="hero-cta-arrow">→</span></span></span></a>
+              <a href="/Dario_Martin_Monteiro_Resume.pdf" download="Dario_Martin_Monteiro_Resume.pdf" class="hero-cta hero-cta--resume" aria-label="Resume (download PDF)"><span class="hero-pill"><span class="hero-cta-ripple" aria-hidden="true"></span><span class="hero-cta-label">RESUME</span><span class="hero-cta-label hero-cta-label--next" aria-hidden="true">DOWNLOAD <span class="hero-cta-arrow">→</span></span></span></a>
             </div>
           </div>
         </div>
@@ -555,9 +556,9 @@
             <p class="timeline-note">Fixed-term project · Expected completion: January 2027</p>
           </li>
           <li class="timeline-item reveal">
-            <div class="timeline-meta"><span><time datetime="2025-07">Jul 2025</time> — <time datetime="2026-07">Jul 2026</time></span><span class="timeline-category">Experience</span></div>
+            <div class="timeline-meta"><span><time datetime="2025-08">Aug 2025</time> – <time datetime="2026-07">Jul 2026</time></span><span class="timeline-category">Experience</span></div>
             <h3>Junior Web Developer</h3>
-            <p class="timeline-company">AX N DX · Remote</p>
+            <p class="timeline-company">axndx · Remote</p>
             <p class="timeline-description">Designed and developed websites and web applications. Built responsive pages and interactive components with HTML, CSS, JavaScript, and React, refining layouts across desktop and mobile.</p>
           </li>
           <li class="timeline-item reveal">
@@ -615,7 +616,7 @@
         <div><p class="section-kicker eyebrow">The tools behind the work <span class="section-index">03</span></p><h2 class="skills-title reveal" id="skills-heading"><span class="tech-title-line">MY TECH</span><em>stack.</em></h2></div>
         <p class="skills-intro">A practical toolkit for building interfaces, connecting applications, and making the details work together.</p>
       </div>
-      <!-- Skills use the CV's verified technology names. No proficiency scores or invented hosting providers. -->
+      <!-- Skills use CV-backed and user-supplied technology names. No proficiency scores or invented hosting providers. -->
       <div class="skill-filters" role="group" aria-label="Filter technologies" hidden>
         <button type="button" data-skill-filter="all" aria-pressed="true" aria-controls="skill-groups">All categories</button>
         <button type="button" data-skill-filter="frontend" aria-pressed="false" aria-controls="skill-groups">Frontend</button>
@@ -626,7 +627,7 @@
       <p class="sr-only" id="skill-status" role="status" aria-live="polite"></p>
       <div class="skill-groups reveal" id="skill-groups">
         <div class="skill-row" data-skill-category="frontend">
-          <div class="skill-category"><h3>Frontend Development</h3><span class="skill-category-meta" aria-label="7 technologies"><span class="skill-category-count">07</span> technologies</span></div>
+          <div class="skill-category"><h3>Frontend Development</h3><span class="skill-category-meta" aria-label="11 technologies"><span class="skill-category-count">11</span> technologies</span></div>
           <ul class="skill-list">
             <li class="tech-card" data-tech="html5"><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/html5.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">HTML</span></div></li>
             <li class="tech-card" data-tech="css3"><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/css3.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">CSS</span></div></li>
@@ -635,6 +636,10 @@
             <li class="tech-card" data-tech="capability-responsive" data-capability><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/capability-responsive.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">Responsive design</span></div></li>
             <li class="tech-card" data-tech="capability-dimensional" data-capability><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/capability-dimensional.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">3D web animation</span></div></li>
             <li class="tech-card" data-tech="capability-scroll" data-capability><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/capability-scroll.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">Scroll-driven effects</span></div></li>
+            <li class="tech-card" data-tech="tailwindcss"><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/tailwindcss.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">Tailwind CSS</span></div></li>
+            <li class="tech-card" data-tech="gsap"><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/gsap.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">GSAP</span></div></li>
+            <li class="tech-card" data-tech="lenis"><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/lenis.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">Lenis</span></div></li>
+            <li class="tech-card" data-tech="motion"><div class="tech-card-surface"><span class="tech-icon" aria-hidden="true"><span class="tech-icon-motion"><img src="/icons/motion.svg" alt="" width="40" height="40" loading="lazy" decoding="async"></span></span><span class="tech-label">Motion</span></div></li>
           </ul>
         </div>
         <div class="skill-row" data-skill-category="tools">
@@ -688,10 +693,10 @@
       <div class="contact-wash" aria-hidden="true"></div>
       <div class="container">
         <div class="contact-top"><p class="section-kicker eyebrow">A conversation starts here <span class="section-index">05</span></p></div>
-        <h2 class="contact-heading reveal" id="contact-heading"><span>LET’S BUILD</span><span>SOMETHING</span><span class="last-line"><span class="accent">GREAT.</span><a class="contact-arrow" href="mailto:emaildarioo@gmail.com" aria-label="Email Dario about your project"><svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></span></h2>
+        <h2 class="contact-heading reveal" id="contact-heading"><span>LET’S BUILD</span><span>SOMETHING</span><span class="last-line"><span class="accent">GREAT.</span><a class="contact-arrow" href="mailto:dariomartinmonteiro@gmail.com" aria-label="Email Dario about your project"><svg aria-hidden="true"><use href="#arrow-up-right"/></svg></a></span></h2>
         <div class="contact-details reveal">
           <p class="contact-copy">Have an idea, a project, or an opportunity? I’d love to hear about it.</p>
-          <div><p class="email-label">Say hello</p><a class="email-link" href="mailto:emaildarioo@gmail.com"><span>emaildarioo@gmail.com</span><svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
+          <div><p class="email-label">Say hello</p><a class="email-link" href="mailto:dariomartinmonteiro@gmail.com"><span>dariomartinmonteiro@gmail.com</span><svg class="arrow" aria-hidden="true"><use href="#arrow-up-right"/></svg></a></div>
         </div>
         <!-- No LinkedIn or GitHub links are included: neither is present in the supplied CV. -->
       </div>
@@ -700,7 +705,7 @@
   <footer class="site-footer dark">
     <div class="container">
       <div class="motion-tools"><span class="eyebrow">At your own pace.</span><button class="motion-toggle" type="button" aria-pressed="false" hidden>Pause motion</button></div>
-      <div class="footer-top"><p class="footer-name">DARIO MARTIN MONTEIRO</p><nav class="footer-links" aria-label="Footer navigation"><a href="#about">About</a><a href="#work">Work</a><a href="mailto:emaildarioo@gmail.com">Email</a></nav><a class="back-top" href="#home">Back to top <svg aria-hidden="true" style="transform:rotate(180deg)"><use href="#arrow-down"/></svg></a></div>
+      <div class="footer-top"><p class="footer-name">DARIO MARTIN MONTEIRO</p><nav class="footer-links" aria-label="Footer navigation"><a href="#about">About</a><a href="#work">Work</a><a href="mailto:dariomartinmonteiro@gmail.com">Email</a></nav><a class="back-top" href="#home">Back to top <svg aria-hidden="true" style="transform:rotate(180deg)"><use href="#arrow-down"/></svg></a></div>
       <div class="footer-bottom"><span>© <span id="copyright-year">2026</span> Dario Martin Monteiro</span><span>Made with care. Built with purpose.</span></div>
     </div>
   </footer>
@@ -898,7 +903,9 @@
       const hash = link.getAttribute('href');
       if (!document.getElementById(hash.slice(1))) return;
       window.portfolioBoot?.dismiss();
-      window.dispatchEvent(new Event('portfolio:navigate'));
+      const navigation = new CustomEvent('portfolio:navigate', { cancelable: true, detail: { hash, smoothContact: link.hasAttribute('data-smooth-contact') } });
+      window.dispatchEvent(navigation);
+      if (navigation.defaultPrevented) { event.preventDefault(); focusDestination(hash); return; }
       if (menuDialog.contains(link)) { event.preventDefault(); closeMenu(hash); }
       else focusDestination(hash); // Preserve native anchor navigation and history.
     });

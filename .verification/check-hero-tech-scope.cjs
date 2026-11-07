@@ -1,0 +1,11 @@
+const fs=require('node:fs');const assert=require('node:assert/strict');
+const old=fs.readFileSync('.verification/hero-tech-before/index.html','utf8');const now=fs.readFileSync('index.html','utf8');
+const cards=html=>html.match(/<li class="tech-card"[\s\S]*?<\/li>/g);
+for(const card of cards(old))assert(cards(now).includes(card),'Existing tech card changed');
+assert.equal(cards(now).length,cards(old).length+4);
+for(const [name,pattern] of [['header',/<header\b[\s\S]*?<\/header>/],['about',/<section class="about container"[\s\S]*?<\/section>/],['services',/<section class="services container"[\s\S]*?<\/section>/],['work',/<section class="work"[\s\S]*?<\/section>/]])assert.equal(now.match(pattern)?.[0],old.match(pattern)?.[0],`Unrelated section changed: ${name}`);
+const entries=html=>html.match(/<li class="timeline-item reveal">[\s\S]*?<\/li>/g);
+for(const entry of entries(old).filter(e=>!e.includes('AX N DX')))assert(entries(now).includes(entry),'Unrelated experience changed');
+for(const file of ['index.html','projects/crizpo/index.html','projects/ar-engineerings/index.html'])assert(!fs.readFileSync(file,'utf8').includes('emaildarioo@gmail.com'));
+const sources=JSON.parse(fs.readFileSync('public/icons/sources.json'));for(const s of sources)assert.equal(fs.statSync('public/icons/'+s.file).size,s.bytes);
+console.log('PASS navbar, About, Services, Selected Work, other experience entries, and all 21 existing tech cards preserved; public emails and icon provenance consistent');

@@ -6,6 +6,7 @@ import { createFlowField } from './flow-field.js';
 import { createIntroduction } from './preloader.js';
 import { createTechStack } from './tech-stack.js';
 import { createProjectHover } from './project-hover.js';
+import { createHeroActions } from './hero-actions.js';
 
 // Original motion system. See MOTION.md for reference research and motion policy.
 gsap.registerPlugin(ScrollTrigger);
@@ -37,8 +38,11 @@ let heroAccentAnimation;
 let ambient;
 let flowField;
 let hoverCleanup = () => {};
+let heroActionsCleanup = () => {};
 let resizeTimer;
 let refreshTimer;
+let contactScrollActive = false;
+let contactScrollTimer;
 let tickerAttached = false;
 let introPlayed = false;
 let marqueePosition = 0;
@@ -187,7 +191,9 @@ function playHero() {
 }
 
 function buildScenes() {
+  finishContactScroll();
   hoverCleanup();
+  heroActionsCleanup();
   ambient?.destroy(); ambient = null;
   flowField?.destroy(); flowField = null;
   techStack?.destroy(); techStack = null;
@@ -273,6 +279,7 @@ function buildScenes() {
   syncProjects();
   techStack = createTechStack({ gsap, ScrollTrigger, onRefresh: scheduleRefresh });
   hoverCleanup = installHover();
+  heroActionsCleanup = desktop.matches ? createHeroActions(gsap) : () => {};
   ambient = createConstellation();
   flowField = createFlowField($('.flow-canvas'), { mobile: !desktop.matches, pointer,
     hasPointer: () => pointerSeen, isBlocked: () => $('#fullscreen-nav').open });
@@ -500,8 +507,15 @@ function detachTicker() { if (tickerAttached) gsap.ticker.remove(tick); tickerAt
 
 function scheduleRefresh() {
   clearTimeout(refreshTimer);
-  refreshTimer = setTimeout(() => { if (!destroyed) { lenis?.resize(); ScrollTrigger.refresh(); marqueeWidth = $('.marquee-copy').getBoundingClientRect().width; } }, 100);
+  refreshTimer = setTimeout(() => {
+    if (destroyed) return;
+    // Lazy project images may load during the long hero-to-contact scroll.
+    // Refreshing then resets native smooth scrolling; measure once it settles.
+    if (contactScrollActive) { scheduleRefresh(); return; }
+    lenis?.resize(); ScrollTrigger.refresh(); marqueeWidth = $('.marquee-copy').getBoundingClientRect().width;
+  }, 100);
 }
+function finishContactScroll() { contactScrollActive = false; clearTimeout(contactScrollTimer); }
 
 function alignInitialAnchor() {
   // Native smooth scrolling can be interrupted by font layout and Lenis startup.
@@ -551,8 +565,9 @@ async function finishIntro() {
 function destroy() {
   if (destroyed) return;
   destroyed = true;
+  finishContactScroll();
   listeners.abort();
-  detachTicker(); ambient?.destroy(); flowField?.destroy(); hoverCleanup();
+  detachTicker(); ambient?.destroy(); flowField?.destroy(); hoverCleanup(); heroActionsCleanup();
   projectObserver.disconnect(); visibilityObserver.disconnect();
   clearTimeout(refreshTimer); clearTimeout(resizeTimer);
   sceneContext?.revert(); techStack?.destroy(); techStack = null; projectContexts.forEach(context => context.revert());
@@ -567,7 +582,26 @@ function destroy() {
 
 window.portfolioMotion = { menu, destroy, filterSkills: apply => techStack ? techStack.filter(apply) : apply() };
 // Native anchors, back/forward and keyboard scrolling retain browser ownership.
-listen(window, 'portfolio:navigate', () => { userNavigated = true; if (lenis) lenis.scrollTo(scrollY, { immediate: true }); });
+listen(window, 'portfolio:navigate', event => {
+  userNavigated = true;
+  if (event.detail?.smoothContact) {
+    const target = $(event.detail.hash);
+    if (!target) return;
+    event.preventDefault();
+    if (location.hash !== event.detail.hash) history.pushState(null, '', event.detail.hash);
+    const padding = parseFloat(getComputedStyle(html).scrollPaddingTop) || 0;
+    const offset = padding + 24;
+    const destination = scrollY + target.getBoundingClientRect().top - offset;
+    finishContactScroll();
+    contactScrollActive = enabled();
+    contactScrollTimer = setTimeout(finishContactScroll, 2000);
+    // Numeric destinations avoid applying CSS scroll-padding a second time in Lenis.
+    if (lenis) lenis.scrollTo(destination, { duration: 1.2, onComplete: finishContactScroll });
+    else window.scrollTo({ top: destination, behavior: enabled() ? 'smooth' : 'instant' });
+  } else if (lenis) lenis.scrollTo(scrollY, { immediate: true });
+});
+listen(window, 'scrollend', () => { if (!lenis) finishContactScroll(); });
+['wheel', 'touchstart', 'keydown'].forEach(event => listen(window, event, finishContactScroll, { passive: true }));
 ['wheel', 'touchstart', 'pointerdown', 'keydown'].forEach(event => listen(window, event, () => { userNavigated = true; }, { passive: true }));
 listen(window, 'portfolio:menu', event => {
   if (event.detail.open) { lenis?.stop(); clearPointer(); }

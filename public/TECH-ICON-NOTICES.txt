@@ -19,3 +19,13 @@ scroll-driven effects, AI-assisted development, REST APIs, manual software
 testing and company email configuration). They are not third-party product logos.
 
 All assets are served locally; there is no runtime icon CDN dependency.
+
+Added 7 November 2026:
+Tailwind CSS: Devicon v2.16.0, under the MIT license above.
+GSAP: official SVG wordmark from https://gsap.com/brand/ (header),
+recolored dark green for contrast on the portfolio's light cards.
+Lenis: official SVG L monogram from https://lenis.dev/ (home link),
+recolored dark green for contrast on the portfolio's light cards.
+Motion: unmodified official SVG from https://motion.dev/favicon.svg.
+These marks identify the corresponding technologies; ownership remains
+with their respective brands. Exact sources are in /icons/sources.json.

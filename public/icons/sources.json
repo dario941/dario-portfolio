@@ -69,5 +69,25 @@
     "source": "https://www.mendix.com/wp-content/uploads/newsroom-mendix-logo-icon.svg",
     "source_page": "https://www.mendix.com/press/",
     "bytes": 1252
+  },
+  {
+    "file": "tailwindcss.svg",
+    "source": "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/icons/tailwindcss/tailwindcss-original.svg",
+    "bytes": 689
+  },
+  {
+    "file": "gsap.svg",
+    "source": "https://gsap.com/brand/",
+    "bytes": 2880
+  },
+  {
+    "file": "lenis.svg",
+    "source": "https://lenis.dev/",
+    "bytes": 681
+  },
+  {
+    "file": "motion.svg",
+    "source": "https://motion.dev/favicon.svg",
+    "bytes": 622
   }
 ]

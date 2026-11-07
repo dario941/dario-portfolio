@@ -108,7 +108,7 @@ for index, p in enumerate(projects):
   <footer class="case-footer case-container">
     <p class="case-eyebrow">Next project / {other['number']}</p>
     <a class="case-next" href="/projects/{other['slug']}/"><span>{escape(other['title'])}</span>{arrow}</a>
-    <div class="case-footer-bottom"><a href="/#work">All selected work</a><a href="mailto:emaildarioo@gmail.com">Have a project in mind? Let’s talk ↗</a><span>© 2026 Dario Martin Monteiro</span></div>
+    <div class="case-footer-bottom"><a href="/#work">All selected work</a><a href="mailto:dariomartinmonteiro@gmail.com">Have a project in mind? Let’s talk ↗</a><span>© 2026 Dario Martin Monteiro</span></div>
   </footer>
   <script type="module" src="/project-detail.js"></script>
 </body>

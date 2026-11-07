@@ -6,6 +6,9 @@ https://github.com/aitezazdev/Portfolio
 Commit e8b729ee314ab3beabf0fc8ef5d0e19d755e3be8
 Sources: src/components/canvas/FlowField.tsx,
 src/components/sections/HomeBanner.tsx.
+The hero pill hover in hero-actions.js and hero-actions.css also adapts the
+rolling labels, ripple and magnetic return from src/components/ui/AnimatedButton.tsx
+(inspected 7 November 2026), under the same MIT license below.
 The remaining portfolio branding, content and artwork are not copied.
 
 MIT License

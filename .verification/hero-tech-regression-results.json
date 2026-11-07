@@ -1,0 +1,22 @@
+[
+  {
+    "name": "hero-tech-regression full scroll",
+    "detail": "all sections visible, timeline progress, motion toggle, live preference changes, hash/back history"
+  },
+  {
+    "name": "hero-tech-regression future projects",
+    "detail": "dynamic insertion, clipped image reveal, text, desktop preview, removal"
+  },
+  {
+    "name": "hero-tech-regression reduced initial state",
+    "detail": "static content and immediate navigation"
+  },
+  {
+    "name": "hero-tech-regression failed module",
+    "detail": "preloader fails open, HTML readable, navigation still works"
+  },
+  {
+    "name": "hero-tech-regression no JavaScript",
+    "detail": "content and anchor navigation available"
+  }
+]

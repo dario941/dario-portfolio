@@ -3,6 +3,16 @@
  * Reference studied: Aitezaz Portfolio / TechStack.tsx (MIT). Original DOM implementation.
  * Separate transform layers prevent entrance, idle float and pointer tilt from competing.
  */
+import { animate } from 'motion/mini';
+import { spring } from 'motion';
+
+const profiles = {
+  tailwindcss: { from: { y: 10, rotation: -8, scale: .9 }, duration: .9, ease: 'sine.out', idle: { x: 2, y: -4, rotation: -3, duration: 2.8 }, hover: { rotation: -8, y: -3, scale: 1.1 } },
+  gsap: { from: { x: -16, rotation: -12, scale: .65 }, duration: .65, ease: 'back.out(1.8)', idle: { x: 2, scale: 1.035, duration: 1.6 }, hover: { rotation: 8, x: 3, scale: 1.16 } },
+  lenis: { from: { y: 20, scale: .95 }, duration: 1.1, ease: 'power3.out', idle: { y: -5, duration: 3.6 }, hover: { rotation: 0, y: -5, scale: 1.08 } },
+  motion: { from: { rotation: -12, scale: .85 }, duration: .8, ease: 'back.out(1.5)', idle: { rotation: 3, scale: 1.03, duration: 3.3 }, hover: { rotation: 0, scale: 1 } },
+};
+
 export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
   const root = document.querySelector('#skills');
   const groups = root.querySelector('.skill-groups');
@@ -16,6 +26,7 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
   const idle = new Map();
   const visible = new Set();
   const revealed = new Set();
+  const springs = new Map();
   let transition;
   let pendingApply;
   let destroyed = false;
@@ -24,13 +35,21 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
   const on = (target, event, handler, options = {}) => target.addEventListener(event, handler, { ...options, signal: abort.signal });
   const track = targets => targets.forEach(target => { target.dataset.motion = ''; });
   const rowTargets = row => [...row.querySelectorAll('.skill-category, .tech-card')];
+  function springIcon(image, transform) {
+    springs.get(image)?.stop();
+    springs.set(image, animate(image, { transform }, { type: spring, duration: .65, bounce: .3 }));
+  }
+  function resetSprings() {
+    springs.forEach((animation, image) => { animation.cancel(); image.style.removeProperty('transform'); });
+    springs.clear();
+  }
 
   function revealRow(row, immediate = false) {
     if (destroyed || row.hidden || revealed.has(row)) return;
     revealed.add(row);
     context.add(() => {
       const targets = rowTargets(row);
-      const icons = [...row.querySelectorAll('.tech-icon-motion')];
+      const icons = [...row.querySelectorAll('.tech-icon-motion')].filter(icon => !profiles[icon.closest('.tech-card').dataset.tech]);
       track(targets);
       const timeline = gsap.timeline({ onComplete: () => entrances.delete(timeline) });
       entrances.add(timeline);
@@ -40,6 +59,18 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
       timeline.fromTo(icons, { rotation: -16, scale: .82 }, {
         rotation: 0, scale: 1, duration: .8, stagger: .045, ease: 'back.out(1.35)', clearProps: 'transform',
       }, .05);
+      [...row.querySelectorAll('.tech-card')].forEach((card, index) => {
+        const profile = profiles[card.dataset.tech];
+        if (!profile) return;
+        timeline.fromTo(card.querySelector('.tech-icon-motion'), profile.from, {
+          x: 0, y: 0, rotation: 0, scale: 1, duration: profile.duration, ease: profile.ease, clearProps: 'transform',
+        }, .05 + index * .045);
+        if (card.dataset.tech === 'motion' && !immediate) timeline.call(() => {
+          const image = card.querySelector('img');
+          image.style.transform = 'scale(.7) rotate(-16deg)';
+          springIcon(image, 'scale(1) rotate(0deg)');
+        }, [], .05 + index * .045);
+      });
       if (immediate) timeline.progress(1);
     });
   }
@@ -68,6 +99,8 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
       const surface = card.querySelector('.tech-card-surface');
       const icon = card.querySelector('.tech-icon');
       const spin = card.querySelector('.tech-icon-motion');
+      const profile = profiles[card.dataset.tech];
+      const springImage = card.dataset.tech === 'motion' ? card.querySelector('img') : null;
       track([surface, icon, spin]);
       observer.observe(card);
       // Small staggered floats, not continuous full rotations; labels stay stationary.
@@ -76,6 +109,7 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
         idle.set(card, gsap.to(icon, {
           y: index % 2 ? -3 : 3, rotation: index % 3 ? 3 : -4,
           duration: 2.8 + (index % 5) * .37, delay: (index % 4) * .23,
+          ...(profile ? { x: 0, y: 0, rotation: 0, ...profile.idle } : {}),
           repeat: -1, yoyo: true, ease: 'sine.inOut', paused: true,
         }));
         let box;
@@ -88,7 +122,8 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
           idle.get(card)?.pause();
           context.add(() => {
             gsap.to(surface, { y: -4, duration: .35, ease: 'power2.out', overwrite: 'auto' });
-            gsap.to(spin, { rotation: 360, scale: 1.14, duration: .7, ease: 'power2.out', overwrite: true });
+            gsap.to(spin, { ...(profile?.hover || { rotation: 360, scale: 1.14 }), duration: .7, ease: profile?.ease || 'power2.out', overwrite: true });
+            if (springImage) springIcon(springImage, 'scale(1.16) rotate(10deg)');
           });
         });
         on(card, 'pointermove', event => {
@@ -103,7 +138,8 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
           box = null; rotateX(0); rotateY(0);
           context.add(() => {
             gsap.to(surface, { y: 0, duration: .55, ease: 'back.out(1.4)', overwrite: 'auto' });
-            gsap.to(spin, { rotation: 0, scale: 1, duration: .55, ease: 'power2.inOut', overwrite: true });
+            gsap.to(spin, { x: 0, y: 0, rotation: 0, scale: 1, duration: .55, ease: 'power2.inOut', overwrite: true });
+            if (springImage) springIcon(springImage, 'scale(1) rotate(0deg)');
           });
           syncIdle();
         });
@@ -128,7 +164,7 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
     pendingApply = apply;
     transition?.kill();
     entrances.forEach(timeline => timeline.kill()); entrances.clear();
-    filtering = true; syncIdle();
+    filtering = true; syncIdle(); resetSprings();
     const current = rows.filter(row => !row.hidden).flatMap(rowTargets);
     const oldHeight = groups.getBoundingClientRect().height;
     gsap.killTweensOf(current);
@@ -163,6 +199,7 @@ export function createTechStack({ gsap, ScrollTrigger, onRefresh = () => {} }) {
       destroyed = true; abort.abort(); observer.disconnect();
       transition?.kill(); entrances.forEach(timeline => timeline.kill());
       idle.forEach(animation => animation.kill());
+      resetSprings();
       context.revert();
       pendingApply?.(); pendingApply = null;
       // Interrupted filters can have captured an earlier filter's faded state.
